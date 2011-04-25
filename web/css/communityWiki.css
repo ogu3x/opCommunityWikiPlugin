@@ -1,0 +1,70 @@
+.wikiDetailBox dl {
+  border: 1px solid #CCCCCC;
+}
+
+.wikiDetailBox dt {
+  float: left;
+  width: 100px;
+  padding: 5px;
+  text-align: center;
+}
+
+.wikiDetailBox dd {
+  zoom: 1;
+  margin-left: 110px;
+  border-left: 1px solid #CCCCCC;
+}
+
+.wikiDetailBox dd div {
+  border-top: 1px solid #CCCCCC;
+}
+
+.wikiDetailBox dd div p {
+  padding: 5px;
+}
+
+.wikiDetailBox dd div.title {
+  border-top: none;
+}
+
+.wikiDetailBox dd ul.photo,
+#communityEvent table ul.photo{
+  padding: 5px;
+}
+
+.wikiDetailBox dd ul.photo li,
+#communityEvent table ul.photo li{
+  display: inline;
+  margin-left: 6px;
+}
+
+.wikiDetailBox dd div.attachFile {
+  padding: 16px 5px;
+}
+
+.wikiDetailBox div.operation {
+  padding: 10px 0;
+}
+
+.communityWiki ul.articleList,
+.communityEvent ul.articleList {
+  background:transparent url(../../images/icon_2.gif) no-repeat scroll 3px 0.4em;
+  padding-bottom:5px;
+  padding-left:85px;
+  text-indent:-72px;
+}
+
+.communityWiki div.moreInfo ul.moreInfo,
+.communityEvent div.moreInfo ul.moreInfo {
+  margin: 0 2px 0 auto;
+  width: 10em;
+}
+
+
+/***************/
+.form input.input_text {
+  width: 98%;
+}
+.form textarea {
+  height: 500px;
+}

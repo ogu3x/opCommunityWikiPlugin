@@ -1,0 +1,19 @@
+options:
+  charset: utf8
+
+CommunityWiki:
+  actAs:
+    opCommunityWikiPluginImagesBehavior:
+    Timestampable:
+  columns:
+    id: { type: integer(4), primary: true, autoincrement: true }
+    community_id: { type: integer(4), notnull: true }
+    member_id: { type: integer(4) }
+    name: { type: string, notnull: true }
+    body: { type: string, notnull: true }
+    wiki_updated_at: { type: timestamp }
+  relations:
+    Member:
+      onDelete: set null
+    Community:
+      onDelete: cascade

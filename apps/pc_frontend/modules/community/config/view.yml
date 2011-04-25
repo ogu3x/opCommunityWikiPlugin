@@ -1,0 +1,15 @@
+homeSuccess:
+  customize:
+    communityWikiList:
+      template: [communityWiki, communityWikiList]
+      parts: [communityHome]
+      target: [lastRow]
+      is_component: true
+
+searchSuccess:
+  customize:
+    wikiSearchLink:
+      template: [communityWiki, wikiSearchLink]
+      parts:    [searchCommunity]
+      target:   [after]
+      is_component: false

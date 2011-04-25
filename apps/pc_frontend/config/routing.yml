@@ -1,0 +1,27 @@
+wiki:
+  class: opCommunityWikiPluginRouteCollection
+  options: { name: wiki }
+
+communityWiki_recently_wiki_list:
+  url: /communityWiki/recentlyWikiList
+  param: { module: communityWiki, action: recentlyWikiList }
+
+communityWiki_search:
+  class: sfDoctrineRoute
+  url: /communityWiki/search/:id
+  options: { model: CommunityWiki, type: object }
+  param: { module: communityWiki, action: search }
+  requirements:
+    id: \d+
+
+communityWiki_search_all:
+  url: /communityWiki/search
+  param: { module: communityWiki, action: search }
+
+communityWiki_search_form:
+  url: /communityWiki/searchForm
+  param: { module: communityWiki, action: searchForm }
+
+communityWiki_nodefaults:
+  url: /communityWiki/*
+  param: { module: default, action: error }

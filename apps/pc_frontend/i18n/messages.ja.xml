@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<xliff version="1.0">
+  <file original="global" source-language="en" datatype="plaintext">
+    <body>
+      <trans-unit id="2">
+        <source>Create a new Wiki</source>
+        <target>Wikiを新規作成する</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Community Wikis</source>
+        <target>Wiki</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>List of Wikis</source>
+        <target>Wiki一覧</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
